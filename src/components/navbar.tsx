@@ -20,16 +20,18 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg custom-navbar">
   <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
     {/* Logo */}
-    <Link href="/" className="navbar-brand">
-      <Image
-        unoptimized
-        width={50}
-        height={80}
-        src="https://apexpreschool.in/assets/img/Logo2.png"
-        className="w-auto h-full rounded-circle"
-        alt="logo"
-      />
-    </Link>
+    <Link href="/" className="navbar-brand d-flex align-items-center">
+  <Image
+    unoptimized
+    width={50}
+    height={80}
+    src="https://apexpreschool.in/assets/img/Logo2.png"
+    className="w-auto h-full rounded-circle"
+    alt="logo"
+  />
+  <span className="ms-2">Apex School</span> {/* This is the school name */}
+</Link>
+
 
     {/* Navbar Toggler */}
     <button 
