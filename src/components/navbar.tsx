@@ -29,7 +29,11 @@ const Navbar = () => {
     className="w-auto h-full rounded-circle"
     alt="logo"
   />
-  <span className="ms-2">Apex School</span> {/* This is the school name */}
+ <span className="ms-2">
+  <span style={{ color: '#3477d9' }}>Apex</span>
+  <span style={{ color: '#c14848' }}> School</span>
+</span>
+
 </Link>
 
 
